@@ -82,8 +82,7 @@ public class Circulo {
      * <pre>"Nombre: &lt;nombre&gt; Area: &lt;area&gt; Perimetro: &lt;perimetro&gt;"</pre>
      * <p>
      * Este método delega en los getters {@code getNombre()}, {@code getArea()}
-     * y {@code getPerimetro()} que se espera existan y estén implementados
-     * en la superclase {@code Figura}.
+     * y {@code getPerimetro()} 
      *
      * @return cadena con nombre, área y perímetro de la figura.
      */
