@@ -80,6 +80,8 @@ A continuación, se muestra un fragmento de la clase figuras.java y figurasTest.
 
 ![Prueba de figurasTest.java](Capturas/FuncionamientoDeClaseFiguraTest.png)
 
+Este fragmento es una prueba unitaria de JUnit (FiguraTest). Su función es garantizar la seguridad y robustez de la clase base Figura. Específicamente, la prueba verifica que al intentar asignar un valor nulo (null) al nombre de una figura, el sistema lance obligatoriamente una NullPointerException. Esto confirma que el código base maneja los errores correctamente, evitando así datos inválidos en el sistema.
+
 ## Autores / Contribuyentes
 Valentino Falabella - Desarrollo, documentación Javadoc y pruebas unitarias.
 
