@@ -75,6 +75,12 @@ Si utilizas un IDE, simplemente haz clic derecho en la carpeta test y selecciona
 
 ![Prueba de figuras.java](Capturas/FuncionamientoDeClaseFigura.png)
 
+Su función principal es establecer el contrato obligatorio que deben seguir todas las figuras que hereden de ella. Declara tres métodos clave, todos documentados con Javadoc:
+
+1. getArea() y getPerimetro(): Estos dos métodos devuelven un valor de cero por defecto. El Javadoc indica claramente que ambos deben ser sobrescritos por cada subclase específica (como Cuadrado o Círculo) para que devuelvan el cálculo real del área y perímetro.
+
+2. getDatosCompletos(): Este método se encarga de ensamblar y devolver una cadena de texto formateada que incluye el nombre, el área y el perímetro de la figura. Para obtener los valores, llama internamente a los métodos getArea() y getPerimetro(), mostrando la información completa de la figura.
+
 ## Ejecución de Pruebas Unitarias con JUnit
 A continuación, se muestra un fragmento de la clase figuras.java y figurasTest.java como ejemplo de las pruebas unitarias implementadas:
 
