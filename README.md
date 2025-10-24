@@ -68,20 +68,20 @@ public class Main {
     }
 }
   ```
-##Ejecución de Pruebas
+## Ejecución de Pruebas
 Para verificar el correcto funcionamiento de todos los cálculos, puedes ejecutar las pruebas unitarias ubicadas en el directorio src/test.
 
 Si utilizas un IDE, simplemente haz clic derecho en la carpeta test y selecciona la opción "Run tests".
 
 ![Prueba de figuras.java](Capturas/FuncionamientoDeClaseFigura.png)
 
-##Ejecución de Pruebas Unitarias con JUnit
+## Ejecución de Pruebas Unitarias con JUnit
 A continuación, se muestra un fragmento de la clase figuras.java y figurasTest.java como ejemplo de las pruebas unitarias implementadas:
 
 ![Prueba de figurasTest.java](Capturas/FuncionamientoDeClaseFiguraTest.png)
 
-##Autores / Contribuyentes
+## Autores / Contribuyentes
 Valentino Falabella - Desarrollo, documentación Javadoc y pruebas unitarias.
 
-##Licencia
+## Licencia
 Este proyecto no cuenta con una licencia de código abierto. Todos los derechos están reservados por el autor.
